@@ -30,7 +30,7 @@ public class LuckyNumberActivity extends AppCompatActivity {
         Intent i = getIntent();
         String userName = i.getStringExtra("name");
 
-//        Toast.makeText(this, "Username: "+user_name, Toast.LENGTH_SHORT).show();
+
 
         //Random Number Generated
         int random_Num = generateRandomNumber();
@@ -72,5 +72,6 @@ public class LuckyNumberActivity extends AppCompatActivity {
 
 
     }
+
 
 }
